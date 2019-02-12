@@ -1,0 +1,5 @@
+[['word.tri_gram()'],
+['word.lower()', 'word.isupper()', 'word.istitle()', 'word.bi_gram()'],
+['bias', 'word.lower()', 'word.isupper()', 'word.istitle()', 'word.isdigit()'],
+['word.lower()', 'word.isupper()', 'word.istitle()', 'word.bi_gram()'],
+['word.tri_gram()']]

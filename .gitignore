@@ -1,0 +1,13 @@
+.DS_Store
+*/.DS_Store
+*/*/.DS_Store
+.idea/
+deepai_nlp.egg-info/
+deepai_nlp/data/pos_tagging/real/
+deepai_nlp/data/tokenized/real/
+deepai_nlp/data/word_embedding/real/
+deepai_nlp/tokenization/__pycache__/
+deepai_nlp/word_embedding/__pycache__/
+deepai_nlp/text_classification/__pycache__/
+deepai_nlp/__pycache__/
+deepai_nlp/models/sentiment_model.h5
