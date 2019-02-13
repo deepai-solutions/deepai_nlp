@@ -33,6 +33,16 @@ labels = keras_text_classifier.classify(test_sentences, label_dict=label_dict)
 print(labels)  # Output: ['tiêu cực', 'tích cực', 'tiêu cực', 'tiêu cực']
 ```
 
+### Crawl wiki article:
+```sh
+from wikicrawler.wiki_bs4 import WikiTextCrawler
+wiki_crawler = WikiTextCrawler()
+keywords = ['Học máy'] 
+for word in keywords:
+results = wiki_crawler.search(word)
+sample_url = results[0]
+wiki_crawler.write_text(output_file='wiki.txt', url=sample_url, mode='w')
+```
 
 ## For training tokenizer and word2vec
 
