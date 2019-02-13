@@ -34,7 +34,7 @@ print(labels)  # Output: ['tiêu cực', 'tích cực', 'tiêu cực', 'tiêu c�
 ```
 
 ### Crawl wiki article:
-```sh
+```python
 from wikicrawler.wiki_bs4 import WikiTextCrawler
 wiki_crawler = WikiTextCrawler()
 keywords = ['Học máy'] 
