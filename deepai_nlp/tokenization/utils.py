@@ -77,7 +77,7 @@ def preprocess_text(texts, tokenizer):
     tok_doc = []
     for i,text in enumerate(texts):
         if i%10000==0:
-            logging.info ("read %s lines" %i)
+            print ("read %s lines" %i)
             
         if isinstance(text, str):
             text = clean_text(text)
